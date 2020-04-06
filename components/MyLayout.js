@@ -1,7 +1,7 @@
 import Header from './Header';
 
 const layoutStyle = {
-	padding: 15,
+	padding:"20px",
 	height: '120vh',
 	display: 'block',
 	backgroundImage: "url('coding.png')",

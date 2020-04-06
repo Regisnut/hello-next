@@ -3,7 +3,7 @@ import data from './data.json';
 import styled from 'styled-components';
 
 const H3Netflix = styled.h3`
-	width: 80px;
+	width: 90px;
 	color: red;
 	background: black;
 	padding: 4px 10px;

@@ -66,7 +66,7 @@ export default function RecipeReviewCard(props) {
 				title={props.title}
 				subheader="April 05, 2020"
 			/>
-			<Link href={props.linkCard} style={{ cursor: 'pointer' }}>
+			<Link href={props.linkCard} >
 				<a style={{ textDecoration: 'none' }}>
 					<CardMedia
 						className={classes.media}

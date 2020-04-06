@@ -74,7 +74,7 @@ export default function TemporaryDrawer(props) {
 	return (
 		<div>
 			<React.Fragment>
-				<Button onClick={toggleDrawer('right', props.setting)}>{'Menu'}</Button>
+				<Button onClick={toggleDrawer('right', props.setting)}>Menu</Button>
 				<Drawer anchor={'right'} open={state['right']} onClose={toggleDrawer('right', false)}>
 					{list('right')}
 				</Drawer>

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import MainNetflix from '../components/netflix/mainNetflix';
 //test styled-components librairie
 const H2todo = styled.h2`
-	margin-top: 320px;
+	margin-top: 400px;
 	border: 1px solid grey;
 	background: lightgrey;
 	border-radius: 4px;

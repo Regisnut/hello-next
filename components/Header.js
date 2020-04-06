@@ -56,14 +56,14 @@ export default function Header() {
 						</Link>
 					</div>
 				) : (
-					<IconButton aria-label="settings">
+					<button onClick={() => {
+						setSetting(true);
+					}} >
 						<MoreVertIcon
-							onClick={() => {
-								setSetting(true);
-							}}
+							
 						/>
 						<Setting setting={setting} />
-					</IconButton>
+					</button>
 				)}
 			</div>
 		</header>
