@@ -11,10 +11,12 @@
     <img alt"package" src="https://img.shields.io/travis/regisnut/hello-next">
     
 </p>
+
 ---
 ## Overview
 
 Fun project using **NEXT.JS** with 3 small React exercices with also different test for styling, such as CSS with :
+
 **Material-UI** and **Styled-Components**💅.
 
 Project done in 2020
