@@ -19,7 +19,7 @@ Fun project using **NEXT.JS** with 3 small React exercices with also different t
 
 **Material-UI** and **Styled-Components**💅.
 
-Project done in 2020
+Project done in 2020.
 
 ## Screenshots
 <p align="center">
