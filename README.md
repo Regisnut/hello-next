@@ -3,8 +3,9 @@
 </h2>
 
 <p align="center">
-<img alt="gif" src="https://github.com/Regisnut/hello-next/blob/master/assets/kapture.gif">
+<img alt="gif" src="https://github.com/Regisnut/hello-next/blob/master/assets/Kapture.gif" width="1000">
 </p>
+
 ---
 
 <p align="center">
