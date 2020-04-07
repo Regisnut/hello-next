@@ -11,7 +11,11 @@ header {
 	justify-content: space-between;
 	align-items: center;
 }
-
+.headerHome:hover{
+color: darkblue;
+transform: scale(1.1);
+transition : ease 2ms
+}
 .picHeader {
 	width: 40%;
 }
@@ -22,6 +26,7 @@ header {
 	padding: 8px 8px;
 }
 .headerTitle {
+	font-family: "Helvetica";
 	margin-right: 30px;
 	padding: 4;
 	text-decoration: none;
@@ -40,7 +45,59 @@ header {
 @media screen and (max-width: 400px) {
 
 }
+/* =================== todo =============== */
+.hero{
+	margin-top: 100px;
+	margin-bottom: 80px;
+	display: flex;
+}
+.heroH1{
+	font-family: "lato";
+	font-size: 54px;
+	font-weight: 900;
+	line-height: 1;
+	margin-bottom: 30px
+}
+.heroParagraph{
+	font-size: 18px;
+	max-width: 300px;
+	margin-bottom: 40px;
+	line-height: 1.4 
+}
 
+.heroButton {
+	cursor : pointer;
+	color: lightgoldenrodyellow;
+	font-weight: 600;
+	padding: 10px 16px;
+	border: 0;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
+	box-shadow: 0 4px 12px 0 rgba(152, 160, 180, 10);
+	background-image: linear-gradient(to right, rgb(27, 55, 179), rgb(93, 156, 175));
+	transition: all 0.4s ease;
+}
+
+.fill-one {
+	position: absolute;
+	background-image: linear-gradient(to right, rgb(15, 54, 228), rgb(42, 217, 240));
+	height: 70px;
+	width: 420px;
+	border-radius: 5px;
+	margin: -40px 0 0 -140px;
+	z-index: -1;
+	transition: all 0.4s ease;
+}
+
+.heroButton:hover {
+	-webkit-transform: translateX(14px);
+	-moz-transform: translateX(14px);
+	transform: translateX(14px);
+	background-image: linear-gradient(to right, rgb(15, 54, 228), rgb(28, 146, 161));
+	transition: all 0.4s ease;
+}
 /* =================== todo =============== */
 .todoContainer {
 	margin-bottom: 2em;
@@ -59,7 +116,7 @@ header {
 	margin-right: 10px;
 }
 fieldset {
-	width: 400px;
+	width: 450px;
 	border-radius: 4px;
 	border: 0.8px solid lightgrey;
 }

@@ -37,7 +37,7 @@ export default function Header() {
 			<div>
 				<Link href="/">
 					<a>
-						<HomeOutlinedIcon style={{ fontSize: 40 }} color="action" />
+						<HomeOutlinedIcon className="headerHome" style={{ fontSize: 45 }} color="action" />
 					</a>
 				</Link>
 			</div>

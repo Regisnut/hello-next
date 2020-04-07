@@ -7,36 +7,21 @@ export default function Index() {
 	return (
 		<Layout>
 			<div
-				style={{
-					marginTop: '100px',
-					marginBottom: '80px',
-					display: 'flex'
-				}}
+			className="hero"
 			>
 				<div>
 					<h1
-						style={{
-							fontSize: '54px',
-							fontWeight: '900',
-							lineHeight: '1',
-							marginBottom: '30px'
-						}}
+					className="heroH1"
 					>
 						Learn <br />React
 					</h1>
-					<p style={{ fontSize: '18px', maxWidth: '300px', marginBottom: '40px', lineHeight: '1.4' }}>
+					<p className="heroParagraph">
 						Learning coding with framework <b>REACT</b> and especially REACT with HOOKS, with some must-do
 						exercices.
 					</p>
+					{/* button with gradient shift on hover */}
 					<button
-						style={{
-							padding: '10px 16px',
-							color: 'lightyellow',
-							backgroundColor: 'darkblue',
-							borderRadius: '8px',
-							fontSize: '16px',
-							fontStyle: 'inherit'
-						}}
+						className="heroButton"
 					>
 						<Link href="/todo">
 							<span>GET STARTED</span>

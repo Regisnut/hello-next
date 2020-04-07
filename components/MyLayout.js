@@ -1,16 +1,17 @@
 import Header from './Header';
 
 const layoutStyle = {
-	padding:"20px",
+	padding:"12px",
 	height: '120vh',
 	display: 'block',
 	backgroundImage: "url('coding.png')",
-	backgroundSize: '85%',
+	backgroundSize: '88%',
 	backgroundPosition: 'right top',
 	backgroundRepeat: 'no-repeat'
 };
 
 const footerStyle = {
+	fontFamily: 'unbuntu',
 	display: 'flex',
 	justifyContent: 'center',
 	alignItems: 'center',
@@ -23,17 +24,15 @@ const footerDiv = {
 	backgroundColor: '#f2f7f9',
 	color: 'grey',
 	borderRadius: '6px',
-	padding: '12px 20px',
-	width: '340px',
-	display: 'flex',
-	justifyContent: 'space-between',
+	padding: '14px 30px',
+	width: '360px',
 	fontSize: '15px'
 };
 const footerLink = {
 	textDecoration: 'inherit',
 	color: 'inherit',
 	cursor: 'pointer',
-	fontWeight: 'bold'
+	fontWeight:"bold"
 };
 const Layout = (props) => (
 	<div style={layoutStyle}>
