@@ -2,8 +2,8 @@
 	Project hello-next
 </h2>
 
-
 ---
+
 <p align="center">
 	<img alt="Last Commit" src="https://img.shields.io/github/last-commit/regisnut/hello-next.svg?style=flat-square">
 	<img alt="Licence" src="https://img.shields.io/github/license/regisnut/hello-next.svg?style=flat-square">
@@ -13,6 +13,7 @@
 </p>
 
 ---
+
 ## Overview
 
 Fun project using **NEXT.JS** with 3 small React exercices with also different test for styling, such as CSS with :
