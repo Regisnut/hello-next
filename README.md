@@ -2,6 +2,9 @@
 	Project hello-next
 </h2>
 
+<p align="center">
+<img alt="gif" src="https://github.com/Regisnut/hello-next/blob/master/assets/kapture.gif">
+</p>
 ---
 
 <p align="center">
