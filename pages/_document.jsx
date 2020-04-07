@@ -18,9 +18,8 @@ class MyDocument extends Document {
 					<meta name="theme-color" content={theme.palette.primary.main} />
 					<link
 						rel="stylesheet"
-						href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
+						href="https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@400;700;900&family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap"
 					/>
-					
 					<style jsx global>
 						{`
 							html,
@@ -34,7 +33,7 @@ class MyDocument extends Document {
 								box-sizing: border-box;
 							}
 							body {
-								font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+								font-family: 'Roboto', 'Lato', 'Montserrat','Ubuntu', sans-serif;
 								font-size: 1rem;
 								max-width: 1024px;
 								margin: 0 auto;
