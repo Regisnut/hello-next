@@ -10,7 +10,6 @@ class MyDocument extends Document {
 		return (
 			<Html>
 				<Head>
-					
 					<meta charSet="utf-8" />
 					<meta
 						name="viewport"
@@ -37,7 +36,8 @@ class MyDocument extends Document {
 							body {
 								font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 								font-size: 1rem;
-								margin: 0;
+								max-width: 1024px;
+								margin: 0 auto;
 							}
 						`}
 					</style>
