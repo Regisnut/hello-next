@@ -10,8 +10,7 @@ class MyDocument extends Document {
 		return (
 			<Html>
 				<Head>
-					{/* <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeMne5-vmGGRYsdcCxDb-PYs3McbjVmCg&libraries=geometry,places&region=FR" />
-					<script src="https://js.stripe.com/v3/" /> */}
+					
 
 					<meta charSet="utf-8" />
 					<meta
