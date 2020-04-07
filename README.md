@@ -9,7 +9,6 @@
 	<img alt="Licence" src="https://img.shields.io/github/license/regisnut/hello-next.svg?style=flat-square">
 	<img alt="Star" src="https://img.shields.io/badge/you%20like%20%3F-STAR%20ME-blue.svg?style=flat-square">
     <img alt"package" src="https://img.shields.io/travis/regisnut/hello-next">
-    
 </p>
 
 ---
