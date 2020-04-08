@@ -2,6 +2,8 @@
 	Project hello-next
 </h2>
 
+https://hellonext.netlify.com/
+
 <p align="center">
 <img alt="gif" src="https://github.com/Regisnut/hello-next/blob/master/assets/Kapture.gif" width="1000">
 </p>
