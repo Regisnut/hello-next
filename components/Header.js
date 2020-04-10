@@ -4,9 +4,6 @@ import Link from 'next/link';
 import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
 import Setting from '../components/util/setting';
 
-import IconButton from '@material-ui/core/IconButton';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
-
 export default function Header() {
 	const [ setting, setSetting ] = useState('');
 	const [ windowSizeState, setWindowSizeState ] = useState({
@@ -59,9 +56,7 @@ export default function Header() {
 					<button onClick={() => {
 						setSetting(true);
 					}} >
-						<MoreVertIcon
-							
-						/>
+						
 						<Setting setting={setting} />
 					</button>
 				)}

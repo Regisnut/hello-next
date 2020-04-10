@@ -11,6 +11,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Link from 'next/link';
 import ComputerIcon from '@material-ui/icons/Computer';
 import CodeIcon from '@material-ui/icons/Code';
+import Menu from '@material-ui/icons/Menu';
+
 const useStyles = makeStyles({
 	list: {
 		width: 250
@@ -74,7 +76,9 @@ export default function TemporaryDrawer(props) {
 	return (
 		<div>
 			<React.Fragment>
-				<Button onClick={toggleDrawer('right', props.setting)}>Menu</Button>
+				<Button onClick={toggleDrawer('right', props.setting)}><Menu fontSize="large"
+							
+							/></Button>
 				<Drawer anchor={'right'} open={state['right']} onClose={toggleDrawer('right', false)}>
 					{list('right')}
 				</Drawer>

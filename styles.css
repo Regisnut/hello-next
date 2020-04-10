@@ -6,6 +6,7 @@ body {
 }
 /* =================== header =============== */
 header {
+	padding : 0 10px;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -92,9 +93,9 @@ transition : ease 2ms
 }
 
 .heroButton:hover {
-	-webkit-transform: translateX(14px);
-	-moz-transform: translateX(14px);
-	transform: translateX(14px);
+	-webkit-transform: translateY(-14px);
+	-moz-transform: translateY(-14px);
+	transform: translateY(-14px);
 	background-image: linear-gradient(to right, rgb(15, 54, 228), rgb(28, 146, 161));
 	transition: all 0.4s ease;
 }
